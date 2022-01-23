@@ -1,0 +1,7 @@
+PORT: 5000
+
+MAJOO_SECRET: 'maj00bersama'
+DB_HOST: localhost
+DB_USER: postgres
+DB_PASSWORD: '123456'
+DB_NAME: majoo_dev
