@@ -1,0 +1,11 @@
+1G. Dari test case pada point C dan point D, menurut saya struktur ERD sudah optimal.
+Penjelasan:
+    Karena perlu ada pembeda antara data merchant dan data outlet.
+    Sebagai contoh untuk untuk mendapatkan data user tidak memerlukan data merchant.
+    Untuk mendapatkan data merchant, tidak memerlukan data outlet.
+
+    Karena sistem masih sederhana dan untuk keperluan test case saja,
+    mungkin terlihat tidak masalah apabila tabel digabungkan semua. tetapi untuk scalability dan penambahan fitur ke depannya,
+    tabel dengan struktur di atas akan lebih baik.
+
+1H. /repositories/db queries.sql

@@ -7,6 +7,21 @@ import (
 	"gorm.io/gorm"
 )
 
+/* yang harus diperbaiki
+
+ada beberapa line of code yang repetitif dan menurut saya tidak perlu diketik secara berulang
+e.g. :
+
+	Var area int -> var dengan V huruf kecil
+	area = 0 -> sebenarnya tidak perlu bisa langsung assign seperti contoh di bawah
+
+	var area := param1 * param2
+	ar.AreaValue = area			-> bisa langsung ar.AreaValue = param1 * param 2 agar lebih hemat memory
+
+
+	dan lainnya dapat dilihat di code seperti di bawah
+*/
+
 type Area struct {
 	ID        int    `gorm:"column:id;primaryKey;"`
 	AreaValue int    `gorm:"column:area_value"`
