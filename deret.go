@@ -21,13 +21,14 @@ Deklarasi:
 	var inputan deret pertama = a
 	var inputan deret kedua = b
 	var panjang deret = x
-	var num = 0
+	var num = a
 	var pengulangan = i
 
 Algoritma:
 	rasio = b-a
 
 	For i lebih kecil dari x
-		OUTPUT num + rasio
+		print(num)
+		num = num + rasio
 
 */
